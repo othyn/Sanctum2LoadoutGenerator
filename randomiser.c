@@ -16,16 +16,16 @@ int main (void)
 	
 	srand(time(NULL));
 	
-	int index_Character = rand() % 6;
-	int index_Weapon1 = rand() % 17;
-	int index_Weapon2 = rand() % 17;
-	int index_Tower1 = rand() % 21;
-	int index_Tower2 = rand() % 21;
-	int index_Tower3 = rand() % 21;
-	int index_Tower4 = rand() % 21;
-	int index_Perk1 = rand() % 54;
-	int index_Perk2 = rand() % 54;
-	int index_Perk3 = rand() % 54;
+	int index_Character = rand() % 5;
+	int index_Weapon1 	= rand() % 16;
+	int index_Weapon2 	= rand() % 16;
+	int index_Tower1 	= rand() % 20;
+	int index_Tower2 	= rand() % 20;
+	int index_Tower3 	= rand() % 20;
+	int index_Tower4 	= rand() % 20;
+	int index_Perk1 	= rand() % 53;
+	int index_Perk2 	= rand() % 53;
+	int index_Perk3 	= rand() % 53;
 
 	printf("Character: %s\n", CharacterList[index_Character]);
 	printf("Primary Weapon: %s\n", WeaponList[index_Weapon1]);
