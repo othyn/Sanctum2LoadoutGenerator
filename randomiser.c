@@ -26,6 +26,7 @@ int main (void)
 	int index_Perk1 	= rand() % 53;
 	int index_Perk2 	= rand() % 53;
 	int index_Perk3 	= rand() % 53;
+	int index_Perk4		= rand() % 53;
 
 	printf("Character: %s\n", CharacterList[index_Character]);
 	printf("Primary Weapon: %s\n", WeaponList[index_Weapon1]);
